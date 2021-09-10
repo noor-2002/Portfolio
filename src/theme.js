@@ -60,7 +60,8 @@ export const redTheme = {
 };
 
 export const blackYellowTheme = {
-  body: "#121212",
+  // body: "#121212", //This is old bg  color
+  body: "#181818",
   text: "white",
   highlight: "black",
   dark: "#000000",
