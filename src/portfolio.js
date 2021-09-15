@@ -181,21 +181,22 @@ const degrees = {
       duration: "2019 - 2022",
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on HTML, Sass, Git, JS, React",
+        "⚡ Apart from this, I have done courses on Front-end development, Git, Php/wordpress.Adobe XD etc.",
         "⚡ I was selected for NSP Means Scholarship which is given to top students of our college. I have received award from respected director for consistently best performance in academics.",
       ],
       website_link: "https://www.aalimec.ac.in",
     },
     {
       title: "Madras christian college higher secondary school",
-      subtitle: "High school",
+      subtitle: "Higher secondary school",
       logo_path: "MCC-LOGO-3.jpg",
       alt_name: "IIITDM Kurnool",
       duration: "2017 - 2019",
       descriptions: [
         "⚡ I have passed my 12th grade in MCC, chennai (English medium).",
-        "⚡ I have also learned basics of programming here and many more",
-        "⚡ I have participated in multiple programs and educational trips during my school days",
+        "⚡  Studied basics of computer science which motivated me to pursue a carrier in this field.",
+        "⚡ Also attended various cultural programs and sports events.",
+        // "⚡ I have participated in multiple programs and educational trips during my school days",
       ],
       website_link: "https://mcc.edu.in",
     },
@@ -325,8 +326,13 @@ const contactPageData = {
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/Xv3vnGPrkc91Vify6",
   },
+  emailSection: {
+    title: "email",
+    subtitle: "noormd.intern@gmail.com",
+  },
   phoneSection: {
     title: "Phone Number",
+    // email '',
     subtitle: "+91 9361932044",
   },
 };

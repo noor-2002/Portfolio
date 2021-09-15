@@ -13,6 +13,7 @@ import { greeting, contactPageData } from "../../portfolio.js";
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
 const addressSection = contactPageData.addressSection;
+const emailSection = contactPageData.emailSection;
 const phoneSection = contactPageData.phoneSection;
 
 class Contact extends Component {
@@ -24,10 +25,11 @@ class Contact extends Component {
         <div className="basic-contact">
           <Fade bottom duration={1000} distance="40px">
             <div className="contact-heading-div">
-              <div className="contact-heading-img-div">
+              <div className="contact-heading-img-div img-container">
                 <img
+                  className="my-img"
                   src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
-                  alt=""
+                  alt="profile-img"
                 />
               </div>
               <div className="contact-heading-text-div">
@@ -55,9 +57,9 @@ class Contact extends Component {
               </div>
             </div>
           </Fade>
-          <Fade bottom duration={1000} distance="40px">
+          {/* <Fade bottom duration={1000} distance="40px">
             <div className="blog-heading-div"></div>
-          </Fade>
+          </Fade> */}
           <Fade bottom duration={1000} distance="40px">
             <div className="address-heading-div">
               <div className="address-heading-text-div">
@@ -72,6 +74,18 @@ class Contact extends Component {
                   style={{ color: theme.secondaryText }}
                 >
                   {addressSection["subtitle"]}
+                </p>
+                <h1
+                  className="address-heading-text"
+                  style={{ color: theme.text }}
+                >
+                  {emailSection["title"]}
+                </h1>
+                <p
+                  className="contact-header-detail-text subTitle"
+                  style={{ color: theme.secondaryText }}
+                >
+                  {emailSection["subtitle"]}
                 </p>
                 <h1
                   className="address-heading-text"
