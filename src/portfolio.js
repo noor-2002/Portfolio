@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Noor mohamed Portfolio",
     type: "website",
-    url: "http://noor.com/",
+    url: "https://noormohamed.netlify.app/#/home",
   },
 };
 
@@ -204,7 +204,7 @@ const degrees = {
       subtitle: "High school",
       logo_path: "st_anthonys_logo-removebg-preview-3.png",
       alt_name: "IIITDM Kurnool",
-      duration: "2017 - 2019",
+      duration: "2005 - 2017",
       descriptions: [
         "⚡ I have passed my 10th grade in st anthonys, chennai (English medium).",
         "⚡ I have also learned basics of programming here and many more",
