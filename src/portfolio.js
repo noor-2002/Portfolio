@@ -263,10 +263,21 @@ const experience = {
           company: "Moxman Pvt. Ltd.",
           company_url: "https://moxman.com",
           logo_path: "Moxman-Design-1.png",
-          duration: "Jun 2019 - Aug 2019",
+          duration: "Jun 2021 - Aug 2021",
           location: "Chennai, Tamilnadu",
           description:
             "I had been working as developer at moxman. I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
+          color: "#ee3c26",
+        },
+        {
+          title: "Web development Intern",
+          company: "Klenty",
+          company_url: "https://moxman.com",
+          logo_path: "klenty-logo.png",
+          duration: "Sept 2021 - Nov 2021",
+          location: "Chennai, Tamilnadu",
+          description:
+            "I had been working as developer at Klenty. I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To maintain all existing pages and work closely with Designers for necessary changes (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this.",
           color: "#ee3c26",
         },
       ],
@@ -309,17 +320,17 @@ const publicationsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "noor-photo-6.jpg",
+    profile_image_path: "noor-photo-11.jpg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Front-end, DSA, Node.js and Opensource Development.",
   },
-  blogSection: {
-    // title: "Blogs",
-    // subtitle:
-    //   "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    // link: "",
-    // avatar_image_path: "blogs_image.svg",
-  },
+  // blogSection: {
+  //   // title: "Blogs",
+  //   // subtitle:
+  //   //   "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
+  //   // link: "",
+  //   // avatar_image_path: "blogs_image.svg",
+  // },
   addressSection: {
     title: "Address",
     subtitle: "Admbakkam, chennai, Tamilnadu, Chennai - 600088",
