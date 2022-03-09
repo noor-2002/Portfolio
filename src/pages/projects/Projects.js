@@ -91,7 +91,9 @@ class Projects extends Component {
                 className="repo-card-div"
                 // key={repo.id}
                 // onClick={() => openRepoinNewTab(repo.url)}
-                onClick={() => window.open("http://www.psriconvalley.com")}
+                onClick={() =>
+                  window.open("https://www.klenty.com/feature/calls-and-tasks")
+                }
                 target="_blank"
                 rel="noopener noreferrer"
                 href="http://your_url_here.html"
@@ -102,13 +104,13 @@ class Projects extends Component {
                     className="repo-name"
                     style={{ color: theme.imageHighlight }}
                   >
-                    PSR Icon valley
+                    Klenty
                     {/* {repo.name} */}
                   </p>
                 </div>
                 <p className="repo-description" style={{ color: theme.text }}>
-                  Located off Jigani-Anekal Road, PSR Icon Valley is a 38 Acre,
-                  lush green, gated community of residential plots.
+                  The Sales Engagement Platform that gets more replies and
+                  meetings booked
                   {/* {repo.description} */}
                 </p>
                 <div className="repo-details">
@@ -117,7 +119,7 @@ class Projects extends Component {
                     style={{ color: theme.secondaryText }}
                   >
                     {/* Created on {repo.createdAt.split("T")[0]} */}
-                    Created on 14-06-2021
+                    Created on 14-10-2021
                   </p>
                   {/* <ProjectLanguages
                     className="repo-languages"
