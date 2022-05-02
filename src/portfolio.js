@@ -25,8 +25,8 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1xomyFMTG1UHrQVfgCHcUw6sUOEU2SW7e/view?usp=sharing",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+    "https://drive.google.com/file/d/1NM0M25r3VW3kru7UJlzdomSWcZ_Mn-Ss/view",
+  portfolio_repository: "https://github.com/NoorMohamed-intern/Portfolio",
 };
 
 const socialMediaLinks = [
