@@ -280,24 +280,24 @@ const experience = {
       experiences: [
         {
           title: "Web development Intern",
+          company: "Klenty",
+          company_url: "https://www.klenty.com",
+          logo_path: "klenty-logo.png",
+          duration: "Sept 2021 - Nov 2021",
+          location: "Chennai, Tamilnadu",
+          description:
+            "Designed and developed dynamic webpages and handled cross-platform/platform compatibility issues. Strong work ethic with good time management with ability to work with diverse team and lead meetings and involved in daily SCRUM meetings to keep track of project status. Hands-on experience in developing react sites to build single page application and solid understanding of component, routing, custom directive and factory. Leveraged knowledge in MERN Stack, Git, Heroku and Debugging.",
+          color: "#ee3c26",
+        },
+        {
+          title: "Web development Intern",
           company: "Moxman Pvt. Ltd.",
           company_url: "https://moxman.com",
           logo_path: "Moxman-Design-1.png",
           duration: "Jun 2021 - Aug 2021",
           location: "Chennai, Tamilnadu",
           description:
-            "I had been working as developer at moxman. I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-          color: "#ee3c26",
-        },
-        {
-          title: "Web development Intern",
-          company: "Klenty",
-          company_url: "https://moxman.com",
-          logo_path: "klenty-logo.png",
-          duration: "Sept 2021 - Nov 2021",
-          location: "Chennai, Tamilnadu",
-          description:
-            "I had been working as developer at Klenty. I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To maintain all existing pages and work closely with Designers for necessary changes (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this.",
+            "Startup web development organization with high-profile clients. Using HTML5, CSS3, JavaScript and jQuery to build interactive user interface (UI), Wrote JavaScript functionsto extend existing jQuery plugins. Created various WordPress sites for clients across various clients. Strong work ethic with good time management with ability to work with diverse team and lead meetings",
           color: "#ee3c26",
         },
       ],
