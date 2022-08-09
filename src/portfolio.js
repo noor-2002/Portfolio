@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1NM0M25r3VW3kru7UJlzdomSWcZ_Mn-Ss/view",
+    "https://drive.google.com/file/d/1FRA6YvckdDgyz94yefZ5AzimMoz0nizq/view",
   portfolio_repository: "https://github.com/NoorMohamed-intern/Portfolio",
 };
 
@@ -218,7 +218,7 @@ const degrees = {
         "⚡ Also attended various cultural programs and sports events.",
         // "⚡ I have participated in multiple programs and educational trips during my school days",
       ],
-      website_link: "https://mcc.edu.in",
+      website_link: "http://www.mccschool.edu.in",
     },
     {
       title: "St.anthonys high secondary school",
@@ -279,7 +279,7 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Web development Intern",
+          title: "Software engineering Intern",
           company: "Klenty",
           company_url: "https://www.klenty.com",
           logo_path: "klenty-logo.png",

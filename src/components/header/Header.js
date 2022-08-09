@@ -26,11 +26,17 @@ class Header extends Component {
         <div>
           <header className="header">
             <NavLink to={link} tag={Link} className="logo">
-              <span style={{ color: theme.text }}> &lt;</span>
+              {/* <span style={{ color: theme.text }}> &lt;</span>
               <span className="logo-name" style={{ color: theme.text }}>
                 {greeting.logo_name}
               </span>
-              <span style={{ color: theme.text }}>/&gt;</span>
+              <span style={{ color: theme.text }}>/&gt;</span> */}
+              <button data-text="Awesome" class="button">
+                <span class="actual-text">&nbsp;Noor&nbsp;</span>
+                <span class="hover-text" aria-hidden="true">
+                  &nbsp;Noor&nbsp;
+                </span>
+              </button>
             </NavLink>
             <input className="menu-btn" type="checkbox" id="menu-btn" />
             <label className="menu-icon" htmlFor="menu-btn">
