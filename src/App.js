@@ -16,7 +16,7 @@ function App() {
         dimensions={50}
         fill="rgb(252, 163, 17)"
         smoothness={{
-          movement: 0.2,
+          movement: 0.3,
           scale: 0.1,
           opacity: 1,
         }}
