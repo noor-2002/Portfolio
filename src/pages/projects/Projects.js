@@ -53,46 +53,7 @@ class Projects extends Component {
                 // key={repo.id}
                 // onClick={() => openRepoinNewTab(repo.url)}
                 onClick={() =>
-                  window.open("https://bishops.co.in/bishops-service/")
-                }
-                style={{ backgroundColor: theme.highlight }}
-              >
-                <div className="repo-name-div">
-                  <p
-                    className="repo-name"
-                    style={{ color: theme.imageHighlight }}
-                  >
-                    Bishops
-                  </p>
-                </div>
-                <p className="repo-description" style={{ color: theme.text }}>
-                  The Bishops Service Program is designed to offer complete
-                  after-sales support to the customer consisting of
-                  Installation.
-                </p>
-                <div className="repo-details">
-                  <p
-                    className="repo-creation-date subTitle"
-                    style={{ color: theme.secondaryText }}
-                  >
-                    Created on 25-07-2021
-                  </p>
-                  {/* <ProjectLanguages
-                    className="repo-languages"
-                    // logos={repo.languages}
-                  /> */}
-                </div>
-              </div>
-            </Fade>
-          </div>
-          <div>
-            <Fade bottom duration={2000} distance="40px">
-              <div
-                className="repo-card-div"
-                // key={repo.id}
-                // onClick={() => openRepoinNewTab(repo.url)}
-                onClick={() =>
-                  window.open("https://www.klenty.com/feature/calls-and-tasks")
+                  window.open("https://natours-noor.herokuapp.com")
                 }
                 target="_blank"
                 rel="noopener noreferrer"
@@ -104,13 +65,13 @@ class Projects extends Component {
                     className="repo-name"
                     style={{ color: theme.imageHighlight }}
                   >
-                    Klenty
+                    Natours
                     {/* {repo.name} */}
                   </p>
                 </div>
                 <p className="repo-description" style={{ color: theme.text }}>
-                  The Sales Engagement Platform that gets more replies and
-                  meetings booked
+                  Responsive tour booking web that allows users to select their
+                  next camping destination
                   {/* {repo.description} */}
                 </p>
                 <div className="repo-details">

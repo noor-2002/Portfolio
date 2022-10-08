@@ -25,14 +25,14 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1FRA6YvckdDgyz94yefZ5AzimMoz0nizq/view",
+    "https://drive.google.com/file/d/1g_p9N0J_oTQP6jiQhDHpNZ_Nic-YV_54/view?usp=sharing",
   portfolio_repository: "https://github.com/NoorMohamed-intern/Portfolio",
 };
 
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/NoorMohamed-intern",
+    link: "https://github.com/noor-2002",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
@@ -57,10 +57,10 @@ const socialMediaLinks = [
   },
 
   {
-    name: "Instagram",
-    link: "https://www.instagram.com/_i_dont_use_emojis_/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+    name: "Leetcode",
+    link: "https://leetcode.com/noormd/",
+    fontAwesomeIcon: "fa solid fa-terminal", // Reference https://fontawesome.com/icons/instagram?style=brands
+    backgroundColor: "rgb(252, 163, 17)", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
